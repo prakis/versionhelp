@@ -2,7 +2,7 @@
 from distutils.core import setup
 setup(
   name = 'versionhelp',
-  packages = ['versionhelp'], # this must be the same as the name above
+  packages = ['versionhelp', 'versionhelp.base'], # this must be the same as the name above
 
   version = '0.3',
   description = 'A Simple Version Command', 
